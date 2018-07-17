@@ -41,7 +41,6 @@ const convertCurrencyAlt = async(from, to, amount) => {
 
 };
 
-
 convertCurrency('EUR', 'USD', 100).then((status) => {
     console.log(status);
 });
